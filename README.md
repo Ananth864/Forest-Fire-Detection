@@ -75,8 +75,8 @@ Since it does not account for the background class, it cannot dominate over the 
 segmentation class.
 
 ## Results
-<img width="313" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection-and-Segmentation/assets/85446106/c924cd83-aed2-4ff9-9970-fefdb076a81a">
-<img width="317" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection-and-Segmentation/assets/85446106/dedd0949-3441-4787-ab9e-4c1bb437dd2b">
+<img width="500" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection-and-Segmentation/assets/85446106/c924cd83-aed2-4ff9-9970-fefdb076a81a">
+<img width="500" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection-and-Segmentation/assets/85446106/dedd0949-3441-4787-ab9e-4c1bb437dd2b">
 
 
 
