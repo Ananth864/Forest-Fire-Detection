@@ -10,3 +10,4 @@ https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-det
 
 ### MT Sample with added noise to simulate scanned document
 
+![Dataset](https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/d052931b-2a64-4198-b195-852d9edf690b)
