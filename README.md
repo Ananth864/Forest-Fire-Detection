@@ -24,7 +24,7 @@ get some randomly generated images which increases the dataset size. I am using
 random shift and random rotation for the augmentation part here.
 Below is the block diagram for the classification model I have proposed.
 
-<img src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/4b52294e-557e-4dca-929e-1b5d76f67db1" width="400" height="525"> <img src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/4b52294e-557e-4dca-929e-1b5d76f67db1" width="400" height="1000">
+<img src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/4b52294e-557e-4dca-929e-1b5d76f67db1" width="400" height="1000">
 
 
 
