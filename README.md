@@ -26,6 +26,8 @@ Below is the block diagram for the classification model I have proposed.
 
 <img src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/4b52294e-557e-4dca-929e-1b5d76f67db1" width="400" height="1000">
 
+## Results
+<img width="338" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/dfaed016-e333-474b-a9e4-d4a640b97cc7">
 
 
 
