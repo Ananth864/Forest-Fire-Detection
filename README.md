@@ -28,7 +28,11 @@ Below is the block diagram for the classification model I have proposed.
 
 ## Results
 <img width="338" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/dfaed016-e333-474b-a9e4-d4a640b97cc7">
-<img width="314" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/2eb6e480-7da2-4453-ad01-5ce135c4fc90">
+<img width="500" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/2eb6e480-7da2-4453-ad01-5ce135c4fc90">
+
+The improvements in all the classification metrics we observed in our model is clearly
+visible. The accuracy increased from 0.78 to 0.91. Similarly, a significant improvement
+can be seen for other metrics like precision, recall, and f1-score too.
 
 
 
