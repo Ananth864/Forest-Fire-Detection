@@ -27,8 +27,8 @@ Below is the block diagram for the classification model I have proposed.
 <img src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/4b52294e-557e-4dca-929e-1b5d76f67db1" width="400" height="1000">
 
 ## Results
-<img width="500" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/dfaed016-e333-474b-a9e4-d4a640b97cc7">
 <img width="500" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/2eb6e480-7da2-4453-ad01-5ce135c4fc90">
+<img width="500" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/dfaed016-e333-474b-a9e4-d4a640b97cc7">
 
 The improvements in all the classification metrics we observed in our model is clearly
 visible. The accuracy increased from 0.78 to 0.91. Similarly, a significant improvement
@@ -75,8 +75,9 @@ Since it does not account for the background class, it cannot dominate over the 
 segmentation class.
 
 ## Results
-<img width="500" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection-and-Segmentation/assets/85446106/c924cd83-aed2-4ff9-9970-fefdb076a81a">
 <img width="500" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection-and-Segmentation/assets/85446106/dedd0949-3441-4787-ab9e-4c1bb437dd2b">
+<img width="500" alt="image" src="https://github.com/Ananth864/Forest-Fire-Detection-and-Segmentation/assets/85446106/c924cd83-aed2-4ff9-9970-fefdb076a81a">
+
 
 
 
