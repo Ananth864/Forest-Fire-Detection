@@ -2,7 +2,7 @@
 
 ### Objective 
 To develop a robust deep learning algorithm for the Classification of forest
-fires on the FLAME dataset:
+fires on the FLAME dataset
 
 ### Dataset
 This link provides FLAME (Fire Luminosity Airborne-based Machine learning Evaluation) dataset using drones during a prescribed pile burn in Northern Arizona, USA. 
@@ -34,6 +34,52 @@ The improvements in all the classification metrics we observed in our model is c
 visible. The accuracy increased from 0.78 to 0.91. Similarly, a significant improvement
 can be seen for other metrics like precision, recall, and f1-score too.
 
+# Forest-Fire-Segmentation
+
+### Objective 
+To develop a robust deep learning algorithm for the Early Detection of
+forest fires through drone images:
+
+## Aproach 
+### Dataset Resizing
+These application of the segmentation model will usually be on drones, hence it is necessary to use a lightweight model that achieves accurate segmentations as fast as possible. Therefore it is important to resize the dataset to a size of 512x512 which will require a smaller model to predict. 
+
+### Detection model
+The model we proposed is based on the principles of attention squeeze architecture that
+only require a few model parameters and U-Net with attention mechanism that could
+highlight regions-of-interest (ROI) while suppressing irrelevant features could be
+regarded as good candidates for real-time fire detection.
+The attention gate guides the model's attention to important regions while suppressing
+feature activation in unrelated areas. It substantially enhances the representational
+power of the model without a significant increase in computing cost or number of
+model parameters due to its lightweight design.
+
+The addition of the initial Conv block of kernel size 1x1 is to reduce the number of
+channels by letting the decide the new set of channels that is a linear combination of
+the previous model. This operation reduces the number of computations and helps in
+reducing overfitting. After this layer, we apply two parallel convolutions with different
+kernel size to capture missing features from the previous layer and concatenate their
+outputs to achieve a richer set of features.
+To reduce the overfitting on the dataset, many of the layers which were removed are a
+Fire module and an Upsampling module. The appropriate skip connections are rerouted
+after these changes. The channel dimensions are also significantly reduced and dropout.
+
+is frequently employed to reduce overfitting as much as possible. The result is a model
+of only 726k parameters which is almost three times less than the base paper model.
+A new loss is also implemented to tackle a major problem in the dataset, which is the
+class imbalance. The fire class is far outweighed by the no-fire class. Hence the loss
+function used by the base paper model, which is binary cross-entropy, is not suited for
+this task as both classes are not given equal importance.
+
+The Tversky Index (TI) is an asymmetric similarity measure that is a generalization of
+the dice coefficient and the Jaccard index. Unlike BCE, trersky coefficient only
+considers the segmentation class and not the background class. The pixels are classified
+as True Positive (TP), False Negative (FN), and False Positive (FP). The Tversky
+coefficient is a measure of the overlap of the predicted mask and the ground truth.
+Since it does not account for the background class, it cannot dominate over the smaller
+segmentation class.
+
+## Results
 
 
 
