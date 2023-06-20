@@ -20,6 +20,13 @@ These application of the detection model will usually be on drones, hence it is 
 The size of the input layer depends on the image size and the number of channels
 which in our case is (254 × 254 × 3). Then the value of RGBs in different channels are
 scaled to a float number between -1.0 and 1.0. After that, we augment the data so we
-get some randomly generated images which increases the dataset size. We are using
+get some randomly generated images which increases the dataset size. I am using
 random shift and random rotation for the augmentation part here.
-Below is the block diagram for the classification model we have proposed.
+Below is the block diagram for the classification model I have proposed.
+
+![finalmodel drawio (1)](https://github.com/Ananth864/Forest-Fire-Detection/assets/85446106/4b52294e-557e-4dca-929e-1b5d76f67db1)
+
+
+
+
+
